@@ -1,0 +1,89 @@
+/*确认提示框*/
+a{
+	text-decoration:none;
+}
+p{
+	margin:0;
+}
+.clearfix:after{
+	content:"";
+	display:block;
+	clear:both;
+}
+#tanBox{
+	min-width: 210px;
+	min-height: 60px;
+	width:500px;
+	border:2px solid #55addc;
+	position:absolute;
+	top:0;
+	left:0;
+	border-radius:8px;
+	background:#fff;
+}
+#tanBox .prompt-top{
+	width: 100%;
+	float:left;
+}
+#tanBox .warning-ico{
+	width: 36px;
+	height: 36px;
+	position:absolute;
+	top:42px;
+	left:35px;
+	background:url(../img/tanBox.png) no-repeat 0 -34px;
+}
+#tanBox .prompt-p1{
+	margin:22px 0 0 90px;
+	font:18px/18px "微软雅黑";
+	color:#000;
+}
+#tanBox .prompt-p2{
+	height:100%;
+	margin:12px 0 0 94px;
+	margin-right:0;
+	font:14px/14px "微软雅黑";
+	color:#000;
+}
+#tanBox .prompt-bottom{
+	width: 100%;
+	height: 58px;
+	float:left;
+	position:relative;
+	padding-top:20px;
+}
+#tanBox .prompt-bottom .error{
+	position:absolute;
+	top:16px;
+	left:15px;
+	font:14px/14px "微软雅黑";
+	color:red;
+}
+.prompt-bottom .btnBox{
+	float:right;
+}
+#tanBox .prompt-bottom a{
+	float:left;
+	width: 78px;
+	height: 28px;
+	border:1px solid #55addc;
+	border-radius:1px;
+	font:16px/30px "微软雅黑";
+	text-align:center;
+	margin-right:20px;
+}
+#tanBox .prompt-bottom .a1{
+	background:#55addc;
+	color:#fff;
+}
+#tanBox .prompt-bottom .a2{
+	color:#55addc;
+}
+#tanBox .closePrompt{
+	width: 15px;
+	height: 15px;
+	background:url(../img/tanBox.png) no-repeat 0 0;
+	position:absolute;
+	top:15px;
+	right:15px;
+}

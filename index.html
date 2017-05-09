@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<link href="css/index.css" rel="stylesheet" />
+		<link rel="stylesheet" href="src/tanBox.css" />
+	</head>
+	<body>
+		<div id="MiaoV">
+			<section id="top">
+				<!--头部-->
+				<header id="head" class="clearfix">
+					<!--logo-->
+					<h1 class="fl">
+						<a href="" class="fl">妙味云盘</a>
+					</h1>
+					<!--用户信息-->
+					<div id="userData" class="fr">
+						<a href="" class="fl">
+							<img src="img/head_ico.jpg" alt="" />
+						</a>
+						<a href="" class="fl ico"></a>
+						|
+						<a href="" class="fr ico"></a>
+					</div>
+				</header>
+				<!--导航-->
+				<nav id="menu">
+					<!--导航左侧-->
+					<div class="navLeft fl">
+						<a id="downLoad" href="#javascript:;">
+							<i></i>
+							下载
+						</a>
+						<a id="share" href="#javascript:;">
+							<i></i>
+							分享
+						</a>
+						<a id="move" href="#javascript:;">
+							<i></i>
+							移动到
+						</a>
+						<a id="resizeName" href="#javascript:;">
+							<i></i>
+							重命名
+						</a>
+						<a id="del" href="#javascript:;">
+							<i></i>
+							删除
+						</a>
+						<a id="newFile" href="#javascript:;">
+							<i></i>
+							新建文件夹
+						</a>
+						<a href="#javascript:;" class="renovate">
+							<span class="ico fl"></span>
+						</a>
+					</div>
+					<!--导航右侧-->
+					<div class="navRight fr">
+						<a href="" class="shift fl">
+							<span class="ico fl"></span>
+						</a>
+						<a href="" class="sort fl">
+							<span class="ico fl"></span>
+							<span class="ico ico2 fl"></span>
+						</a>
+					</div>
+				</nav>
+			</section>
+			<section id="content" class="clearfix">
+				<!--文件夹树-->
+				<div id="tree" class="fl">
+					
+				</div>
+				<div id="file">
+					<!--全选-->
+					<div class="selectAll">
+						
+					</div>
+					<!--面包屑导航-->
+					<header id="nav" class="clearfix">
+						
+					</header>
+					<!--文件区域-->
+					<div id="alert" class="clearfix">
+						<div class="alert-box">
+							<img class="no-filImg" src="img/fil-no.png" alt="" />
+							<p class="no-filP1">暂无文件</p>
+							<p class="no-filP2">请点击左上角的“上传”按钮添加</p>
+						</div>
+					</div>
+					<div id="files" class="clearfix">
+						
+					</div>
+				</div>
+			</section>
+			<!--上面往下跑的那个小提示框-->
+			<div id="reminder">
+				<div></div>
+			</div>
+		</div>
+		<script src="src/tanBox.js"></script>
+		<script src="js/data.js"></script>
+		<script src="js/handleData.js"></script>
+		<script src="js/tools.js"></script>
+		<script src="js/createHtml.js"></script>
+		
+	</body>
+</html>
